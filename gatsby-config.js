@@ -6,4 +6,7 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [],
+  developMiddleware: app => {
+    // Force refresh on certain file changes
+  },
 }
